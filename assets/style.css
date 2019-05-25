@@ -1,0 +1,138 @@
+/* resetCSS */
+[任意のリセットCSS]
+/*resetCSS*/
+
+/*
+デフォルトだと https://qmainconts.f5.si/blog/blog_index.html と同じデザインになります。
+クラスは変更しないことをおすすめします。
+追加は問題ありません。
+*/
+
+/*default*/
+h1{
+    font-size: 2rem;
+}
+
+/*main*/
+.main{
+    font-family: sans-serif;
+    width: 756px;
+    margin: 15px auto;
+}
+@media screen and (max-width: 1920px){
+    .main{
+        font-family: sans-serif;
+        width: 756px;
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width: 1600px){
+    .main{
+        font-family: sans-serif;
+        width: 756px;
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width: 1365px){
+    .main{
+        font-family: sans-serif;
+        width: 756px;
+        margin: 15px auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 780px){
+    .main{
+        width: 90%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 10px auto;
+    }
+}
+
+.header{
+    box-sizing: border-box;
+    background-color: #dbdbdb;
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 10px 45px 20px;
+    margin-bottom: 10px;
+}
+.header h1{
+    font-family: serif;
+}
+
+/*article or contents*/
+.article{
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+
+.atcinside{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.atcinside h1{
+    font-size: 1.7rem;
+    color: #252525;
+}
+
+.atcinside h2{
+    font-size: 1.4rem;
+    color: #252525;
+}
+
+.atcinside img{
+    max-width: 100%;
+}
+
+.list_content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.list_content h1{
+    font-size: 1.7rem;
+}
+.list_content h1 a:link{
+    color: #404040;
+}
+.list_content h1 a:hover{
+    color: #707070;
+    text-decoration: none;
+}
+.list_content h1 a:visited{
+    color: #404040;
+}
+
+a:link{
+    text-decoration: none;
+    color: #0088cc;
+}
+a:hover{
+    text-decoration: underline;
+    color: #0088cc;
+}
+a:visited{
+    text-decoration: none;
+    color: #7619c2;
+}
+a:active{
+    text-decoration: underline;
+    color: #333194;
+}
+
+/*footer*/
+.footer{
+    box-sizing: border-box;
+    background-color: #dbdbdb;
+    min-height: 84px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
