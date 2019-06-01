@@ -1,12 +1,31 @@
 /* resetCSS */
-[任意のリセットCSS]
-/* resetCSS */
+html, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+}
 
-/*
-デフォルトだと https://qmainconts.f5.si/blog/blog_index.html と同じデザインになります。
-クラスは変更しないことをおすすめします。
-追加は問題ありません。
-*/
+article, header, footer, aside, figure, figcaption, nav, section { 
+    display: block;
+}
+
+body {
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #252525;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: #121212;
+}
+/*resetCSS*/
 
 /*default*/
 h1{
@@ -125,6 +144,25 @@ a:visited{
 a:active{
     text-decoration: underline;
     color: #333194;
+}
+pre{
+    overflow: auto;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+code{
+    font-family: Consolas, 'DejaVu Sans Mono', monospace;
+    font-size: 90%;
+}
+ul,ol{
+    margin-left: 30px;
+}
+.olc{
+    font-family: Consolas, 'DejaVu Sans Mono', monospace;
+    color: white;
+    background-color: #252525;
+    font-size: 90%;
+    margin: 0px 5px;
 }
 
 /*footer*/
