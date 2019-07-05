@@ -2,6 +2,7 @@ from datetime import datetime
 import os
 import configparser
 import sys
+import shutil
 from requests_oauthlib import OAuth1Session
 from distutils.dir_util import copy_tree
 
@@ -91,6 +92,9 @@ with open(file_path, mode="w", encoding="utf-8")as f:
 
 # 画像を移動
 copy_tree("pictures", f"{blogpath}blog/pictures")
+
+# CSSを移動
+shutil.copy("assets/style.css", f"{blogpath}blog/style.css")
 
 input("ファイルの準備ができました。サーバーへのアップロードが完了したら、キーを押して続行してください。Twitterに更新通知が投稿されます")
 
