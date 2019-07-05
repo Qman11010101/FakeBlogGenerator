@@ -8,7 +8,7 @@ Twitterに更新通知を投稿できます(開発者登録が必要です)。
 
 ## 使用方法
 
-1. config.iniを編集します。
+1. config.sample.iniを編集しconfig.iniに改名します。
 1. asset内のcssを自由に弄ってデザインを作ります。デフォルトのcssは私のブログと同じです。デザインの参考には```sample_article.html```と```sample_index.html```が使用できます。
 1. article_base.html内に記事を書きます。画像はpicturesフォルダに置きます(```../pictures/hogehoge.jpg```のように相対パスで指定できます)
 1. main.pyを起動し、記事のタイトルを入力します。
