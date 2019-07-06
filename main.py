@@ -43,7 +43,7 @@ file_code = f"./articles/{crtimestr}.html" # コード上に挿入するファ�
 day_str = str(datetime.now().strftime("%Y-%m-%d")) # yyyy-mm-dd形式で日付テキストを生成
 
 index_path = f"{blogpath}blog/blog_index.html" # ファイル生成(初回)/上書き用パス
-insert_code = f'<hr><div class="list_content"><p>{day_str}</p><h1><a href="{file_code}">{title_atc}</a></h1></div>' # 挿入するコード
+insert_code = f'\n<hr><div class="list_content"><p>{day_str}</p><h1><a href="{file_code}">{title_atc}</a></h1></div>' # 挿入するコード
 
 # top1.html
 with open("assets/top1.html", mode="r", encoding="utf-8") as f:
