@@ -24,6 +24,7 @@ body {
     font-size: 100%;
     vertical-align: baseline;
     color: #121212;
+    overflow-x: hidden;
 }
 /*resetCSS*/
 
@@ -63,10 +64,7 @@ h1{
 }
 @media screen and (max-width: 780px){
     .main{
-        width: 90%;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin: 10px auto;
+        width: 100%;
     }
 }
 
@@ -116,7 +114,12 @@ h1{
 }
 
 .list_content h1{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+}
+@media screen and (max-width: 780px){
+    .list_content h1{
+        font-size: 1.25rem
+    }
 }
 .list_content h1 a:link{
     color: #404040;
